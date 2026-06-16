@@ -5,7 +5,6 @@ import Projects from "@/components/Projects";
 import Stack from "@/components/Stack";
 import Experience from "@/components/Experience";
 import MoreThanCode from "@/components/MoreThanCode";
-import Thoughts from "@/components/Thoughts";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -19,8 +18,7 @@ export default function Home() {
       <Stack />
       <Experience />
       <MoreThanCode />
-      <Thoughts />
-      <Contact />
+<Contact />
       <Footer />
     </main>
   );

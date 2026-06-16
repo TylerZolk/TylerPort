@@ -6,8 +6,7 @@ const links = [
   { label: "Projects", href: "#projects" },
   { label: "Stack", href: "#stack" },
   { label: "Experience", href: "#experience" },
-  { label: "Thoughts", href: "#thoughts" },
-  { label: "Contact", href: "#contact" },
+{ label: "Contact", href: "#contact" },
 ];
 
 export default function Navbar() {
