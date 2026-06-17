@@ -6,7 +6,6 @@ const links = [
   { label: "Projects", href: "#projects" },
   { label: "Stack", href: "#stack" },
   { label: "Experience", href: "#experience" },
-{ label: "Contact", href: "#contact" },
 ];
 
 export default function Navbar() {
@@ -50,7 +49,7 @@ export default function Navbar() {
             href="#contact"
             className="text-sm px-4 py-2 rounded-full border border-amber-500/40 text-amber-400 hover:bg-amber-500/10 transition-all"
           >
-            Hire Me
+            Contact Me
           </a>
         </div>
 
