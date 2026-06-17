@@ -11,6 +11,7 @@ const projects = [
     color: "from-amber-500/10 to-transparent",
     accentColor: "text-amber-400",
     status: "Hackathon Build",
+    github: "https://github.com/TylerZolk/GridstormFrontEnd",
   },
   {
     id: "02",
@@ -22,6 +23,7 @@ const projects = [
     color: "from-sky-500/10 to-transparent",
     accentColor: "text-sky-400",
     status: "Hackathon Build",
+    github: "https://github.com/TylerZolk/PalmettoInsurance",
   },
   {
     id: "03",
@@ -33,6 +35,7 @@ const projects = [
     color: "from-blue-500/10 to-transparent",
     accentColor: "text-blue-400",
     status: "Completed",
+    github: "https://github.com/TylerZolk/CSCE548Project",
   },
   {
     id: "04",
@@ -44,6 +47,7 @@ const projects = [
     color: "from-emerald-500/10 to-transparent",
     accentColor: "text-emerald-400",
     status: "Live",
+    github: "https://github.com/ktp-usc/sc-economics-volunteers",
   },
   {
     id: "05",
@@ -55,6 +59,7 @@ const projects = [
     color: "from-teal-500/10 to-transparent",
     accentColor: "text-teal-400",
     status: "Live",
+    github: "https://github.com/TylerZolk/TLCSchedule",
   },
   {
     id: "06",
@@ -66,6 +71,7 @@ const projects = [
     color: "from-purple-500/10 to-transparent",
     accentColor: "text-purple-400",
     status: "Ongoing",
+    github: null,
   },
 ];
 
@@ -94,7 +100,7 @@ export default function Projects() {
           {projects.map((p) => (
             <div
               key={p.id}
-              className="card-glass group overflow-hidden cursor-pointer"
+              className="card-glass group overflow-hidden"
             >
               {/* Project header area */}
               <div
@@ -125,15 +131,28 @@ export default function Projects() {
                   {p.description}
                 </p>
 
-                <div className="flex flex-wrap gap-1.5">
-                  {p.stack.map((tag) => (
-                    <span
-                      key={tag}
-                      className="text-[11px] font-mono px-2 py-0.5 bg-white/[0.04] border border-white/8 rounded text-white/40"
+                <div className="flex items-center justify-between gap-3 flex-wrap">
+                  <div className="flex flex-wrap gap-1.5">
+                    {p.stack.map((tag) => (
+                      <span
+                        key={tag}
+                        className="text-[11px] font-mono px-2 py-0.5 bg-white/[0.04] border border-white/8 rounded text-white/40"
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+
+                  {p.github && (
+                    <a
+                      href={p.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex-shrink-0 flex items-center gap-1.5 text-xs text-white/30 hover:text-white/70 transition-colors font-mono"
                     >
-                      {tag}
-                    </span>
-                  ))}
+                      ◎ GitHub
+                    </a>
+                  )}
                 </div>
               </div>
             </div>
