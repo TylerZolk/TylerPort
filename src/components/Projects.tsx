@@ -96,29 +96,29 @@ export default function Projects() {
               key={p.id}
               className="card-glass group overflow-hidden cursor-pointer"
             >
-              {/* Placeholder screenshot area */}
+              {/* Project header area */}
               <div
-                className={`relative h-48 bg-gradient-to-br ${p.color} bg-[#111] flex items-center justify-center border-b border-white/5`}
+                className={`relative h-44 bg-gradient-to-br ${p.color} bg-[#111] border-b border-white/5 overflow-hidden`}
+                style={{
+                  backgroundImage: `radial-gradient(circle, rgba(255,255,255,0.03) 1px, transparent 1px)`,
+                  backgroundSize: "24px 24px",
+                }}
               >
-                <div className="text-center">
-                  <span className="font-black text-5xl text-white/5">{p.id}</span>
-                </div>
-                <div className="absolute top-4 left-4">
-                  <span className={`font-mono text-xs ${p.accentColor} bg-white/5 px-2 py-1 rounded`}>
+                <div className={`absolute inset-0 bg-gradient-to-br ${p.color}`} />
+                <div className="absolute bottom-4 left-5 right-5 flex items-end justify-between">
+                  <h3 className="text-2xl font-black text-white/10 leading-none">{p.name}</h3>
+                  <span className={`font-mono text-xs ${p.accentColor} bg-black/30 px-2 py-1 rounded`}>
                     {p.status}
                   </span>
                 </div>
               </div>
 
               <div className="p-6">
-                <div className="flex items-start justify-between mb-2">
-                  <div>
-                    <h3 className="text-xl font-bold text-white group-hover:text-amber-300 transition-colors">
-                      {p.name}
-                    </h3>
-                    <p className="font-mono text-xs text-white/30 mt-0.5">{p.tagline}</p>
-                  </div>
-                  <span className="text-white/10 font-mono text-xs mt-1">{p.id}</span>
+                <div className="mb-2">
+                  <h3 className="text-xl font-bold text-white group-hover:text-amber-300 transition-colors">
+                    {p.name}
+                  </h3>
+                  <p className="font-mono text-xs text-white/30 mt-0.5">{p.tagline}</p>
                 </div>
 
                 <p className="text-sm text-white/50 leading-relaxed mt-3 mb-5">

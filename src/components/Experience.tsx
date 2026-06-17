@@ -33,14 +33,25 @@ const experiences = [
     ],
   },
   {
+    role: "Director of Marketing (Exec)",
+    org: "Kappa Theta Pi — ΚΘΠ",
+    period: "2026 — Present",
+    color: "bg-violet-500",
+    bullets: [
+      "On executive board of USC's chapter of KTP, the co-ed professional tech fraternity focused on CS, design, business, and IT.",
+      "Lead marketing and branding efforts to grow chapter presence and drive recruitment across the tech community on campus.",
+      "Help connect members to career opportunities, professional development, and a network of students who actually care about technology.",
+    ],
+  },
+  {
     role: "Software Engineering Intern",
     org: "CB Group LLC",
     period: "2026 — Present",
     color: "bg-cyan-500",
     bullets: [
       "Built and maintained internal software tools supporting business operations.",
-      "Collaborated with team members to ship features and fix production issues on a real timeline.",
-      "Gained hands-on experience working in a professional engineering environment.",
+      "Developed ShiftSync, a multi-role scheduling platform for managing staff availability, shift templates, and schedules across multiple restaurant locations.",
+      "Currently building an internal inventory management system to track stock, streamline ordering, and reduce manual overhead.",
     ],
   },
   {
@@ -66,9 +77,7 @@ export default function Experience() {
             03 / EXPERIENCE
           </div>
           <h2 className="text-4xl md:text-5xl font-black text-white leading-tight">
-            Where I&apos;ve
-            <br />
-            <span className="text-white/25">shown up.</span>
+            Experience
           </h2>
         </div>
 

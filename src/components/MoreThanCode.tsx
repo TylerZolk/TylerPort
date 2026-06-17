@@ -43,12 +43,10 @@ export default function MoreThanCode() {
             04 / BEYOND CODE
           </div>
           <h2 className="text-4xl md:text-5xl font-black text-white leading-tight mb-3">
-            More than
-            <br />
-            <span className="text-white/25">code.</span>
+            Outside the repo.
           </h2>
           <p className="text-sm text-white/35 max-w-sm">
-            The parts of my work that don&apos;t show up in a GitHub repo.
+            The parts of my work that don&apos;t show up on GitHub.
           </p>
         </div>
 
