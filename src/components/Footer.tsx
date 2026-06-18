@@ -4,11 +4,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
         <span className="font-mono text-sm text-[#D21404]">TZ_</span>
 
-        <p className="font-mono text-xs text-white/20 text-center">
-          © 2025 Tyler Zolkos · Built with Next.js + Tailwind
-        </p>
-
-        <div className="flex gap-6">
+<div className="flex gap-6">
           {["GitHub", "LinkedIn", "Email"].map((item) => (
             <a
               key={item}
