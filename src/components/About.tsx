@@ -5,20 +5,20 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-16 items-start">
           <div>
             <div className="section-label mb-6 flex items-center gap-3">
-              <span className="w-6 h-px bg-amber-500" />
+              <span className="w-6 h-px bg-[#D21404]" />
               00 / ABOUT
             </div>
 
-            <p className="text-white/70 text-lg leading-relaxed mb-5">
+            <p className="text-white/60 text-base leading-relaxed mb-5">
               I&apos;m a Computer Science student at the University of South Carolina with a focus on
               cybersecurity, software engineering, and building practical tools.
             </p>
-            <p className="text-white/55 text-base leading-relaxed mb-5">
+            <p className="text-white/60 text-base leading-relaxed mb-5">
               I like working at the intersection of technology, design, and operations — whether
               that means building web apps, producing events, or creating systems that make teams
               move faster.
             </p>
-            <p className="text-white/40 text-sm leading-relaxed">
+            <p className="text-white/60 text-base leading-relaxed">
               Outside of code: CMO of Inspire Columbia, technical producer for TEDx events, general
               manager at The Loose Cockaboose, and Director of Marketing on exec for Kappa Theta Pi.
               I care about making things that actually work.

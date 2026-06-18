@@ -39,11 +39,11 @@ export default function Hero() {
       </div>
 
       {/* Ambient glow */}
-      <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-amber-500/5 rounded-full blur-[120px] pointer-events-none" />
+      <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#D21404]/5 rounded-full blur-[120px] pointer-events-none" />
 
       <div className="relative max-w-6xl mx-auto px-6 py-20">
         <div className="section-label mb-6 flex items-center gap-3">
-          <span className="w-6 h-px bg-amber-500" />
+          <span className="w-6 h-px bg-[#D21404]" />
           Computer Science · USC
         </div>
 
@@ -71,7 +71,7 @@ export default function Hero() {
         <div className="flex flex-wrap items-center gap-6">
           <a
             href="#projects"
-            className="px-6 py-3 bg-amber-500 hover:bg-amber-400 text-black font-semibold text-sm rounded-full transition-all hover:scale-[1.02]"
+            className="px-6 py-3 bg-[#D21404] hover:bg-[#b01203] text-black font-semibold text-sm rounded-full transition-all hover:scale-[1.02]"
           >
             View Projects
           </a>

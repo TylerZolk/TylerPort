@@ -29,7 +29,7 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         <a
           href="#"
-          className="font-mono text-sm text-amber-400 tracking-wider hover:text-amber-300 transition-colors"
+          className="font-mono text-sm text-[#D21404] tracking-wider hover:text-[#b01203] transition-colors"
         >
           TZ<span className="text-white/30">_</span>
         </a>
@@ -47,7 +47,7 @@ export default function Navbar() {
           ))}
           <a
             href="#contact"
-            className="text-sm px-4 py-2 rounded-full border border-amber-500/40 text-amber-400 hover:bg-amber-500/10 transition-all"
+            className="text-sm px-4 py-2 rounded-full border border-[#D21404]/40 text-[#D21404] hover:bg-[#D21404]/10 transition-all"
           >
             Contact Me
           </a>

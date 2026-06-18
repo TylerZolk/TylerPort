@@ -66,7 +66,7 @@ export default function Stack() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="mb-14">
           <div className="section-label mb-4 flex items-center gap-3">
-            <span className="w-6 h-px bg-amber-500" />
+            <span className="w-6 h-px bg-[#D21404]" />
             02 / STACK
           </div>
           <h2 className="text-4xl md:text-5xl font-black text-white leading-tight mb-3">
@@ -84,7 +84,7 @@ export default function Stack() {
             <div key={cat.id} className="card-glass p-5">
               <div className="flex items-center justify-between mb-5">
                 <div>
-                  <div className="font-mono text-[10px] text-amber-500 mb-1">{cat.id}</div>
+                  <div className="font-mono text-[10px] text-[#D21404] mb-1">{cat.id}</div>
                   <h3 className="text-sm font-semibold text-white">{cat.title}</h3>
                 </div>
                 <span className="font-mono text-xs text-white/20">{cat.tools.length}</span>

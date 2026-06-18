@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer className="border-t border-white/5 py-10">
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
-        <span className="font-mono text-sm text-amber-400">TZ_</span>
+        <span className="font-mono text-sm text-[#D21404]">TZ_</span>
 
         <p className="font-mono text-xs text-white/20 text-center">
           © 2025 Tyler Zolkos · Built with Next.js + Tailwind

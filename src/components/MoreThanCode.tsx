@@ -39,7 +39,7 @@ export default function MoreThanCode() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="mb-14">
           <div className="section-label mb-4 flex items-center gap-3">
-            <span className="w-6 h-px bg-amber-500" />
+            <span className="w-6 h-px bg-[#D21404]" />
             04 / BEYOND CODE
           </div>
           <h2 className="text-4xl md:text-5xl font-black text-white leading-tight mb-3">
